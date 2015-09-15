@@ -2,6 +2,8 @@
   var userControllers = angular.module('userControllers', ['ngRoute'])
 
   userControllers.controller('usersController', ['User', function(User) {
-    this.users = User.query();
+    this.users = User.query(function(users){
+      console.log(users)
+    });
   }]);
 })();

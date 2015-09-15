@@ -1,11 +1,11 @@
 Rails.application.routes.draw do
-  root to: 'users#index'
+  root to: 'users#welcome'
 
   resources :users do
     resources :personalities
   end
 
-  resources :messages, only: [:create, :destroy]
+  # resources :messages, only: [:create, :destroy]
 
   match 'auth/:provider/callback', to: 'sessions#create', via: [:get, :post]
   match 'auth/failure', to: redirect('/'), via: [:get, :post]

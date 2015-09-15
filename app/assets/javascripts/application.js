@@ -22,8 +22,7 @@
     'ngRoute',
     'ngResource',
     'userControllers',
-    'userRouter',
     'userServices',
-    'userDirectives'
+    'userRouter'
   ]);
 })();
