@@ -5,7 +5,7 @@
     function($routeProvider){
       $routeProvider.
       when("/users", {
-        templateUrl: 'public/views/index.html',
+        templateUrl: 'views/index.html',
         controller: 'usersController',
         controllerAs: 'usersCtrl'
       });
