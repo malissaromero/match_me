@@ -13,4 +13,19 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+
+//= require angular
+
 //= require_tree .
+// 'use strict';
+//
+// (function() {
+//   var app = angular.module('grumblr', [
+//     'ngRoute',
+//     'ngResource',
+//     'grumbleControllers',
+//     'grumbleRouter',
+//     'grumbleServices',
+//     'grumbleDirectives'
+//   ]);
+// })()
