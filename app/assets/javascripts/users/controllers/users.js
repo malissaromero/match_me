@@ -4,5 +4,4 @@
   userControllers.controller('usersController', ['User', function(User) {
     this.users = User.query();
   }]);
-
 })();
