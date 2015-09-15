@@ -18,7 +18,7 @@
 'use strict';
 
 (function() {
-  var app = angular.module('user', [
+  var app = angular.module('matchme', [
     'ngRoute',
     'ngResource',
     'userControllers',
@@ -26,4 +26,4 @@
     'userServices',
     'userDirectives'
   ]);
-})()
+})();
