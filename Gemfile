@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+gem 'omniauth'
+gem 'omniauth-facebook', '1.4.0'
+
 gem "activerecord"  # this gem provides a connection between your ruby classes to relational database tables
 gem "pry"  # this gem allows access to REPL
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'

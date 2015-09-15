@@ -5,10 +5,10 @@
     function($routeProvider){
       $routeProvider.
       when("/users", {
-        templateUrl: 'users/views/index.html',
+        templateUrl: 'public/views/index.html',
         controller: 'usersController',
         controllerAs: 'usersCtrl'
       });
     }
   ])
-})
+})();

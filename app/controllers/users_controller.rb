@@ -35,6 +35,6 @@ class UsersController < ApplicationController
 
   private
     def user_params
-      params.require(:user).permit(:facebook_id, :name, :location, :photo_url)
+      params.require(:user).permit(:provider, :name, :oauth_token, :location, :photo_url)
     end
 end
