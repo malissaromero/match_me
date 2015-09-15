@@ -2,7 +2,7 @@
   var directives = angular.module('userDirectives',[]);
   directives.directive('user', ['User', '$routeParams', '$location', function(User, $routeParams, $location){
     return {
-      templateUrl: 'public/views/index.html',
+      templateUrl: 'views/index.html',
       link: function(scope, element, attributes){
         if($routeParams.id){
           scope.showing = true;
