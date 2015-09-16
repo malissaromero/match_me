@@ -27,19 +27,19 @@
   ]);
 })();
 
-$(document).ready(function(){
-  $("h1").on("click", function(){
-   var url = "https://api.traitify.com/v1/assessments/{d42bb058-ee15-4ba3-b816-fc5f438ae680}/slides"
-   $.ajax({
-     url: url,
-     type: "GET",
-     dataType: "json"
-   }).done(function(){
-     console.log("ajax request success!")
-   }).fail(function(){
-     console.log("ajax request fails!")
-   }).always(function(){
-     console.log("this always happens regardless of successful ajax request or not")
-   })
- })
-})
+// $(document).ready(function(){
+//   $("h1").on("click", function(){
+//    var url = "https://api.traitify.com/v1/assessments/{d42bb058-ee15-4ba3-b816-fc5f438ae680}/slides"
+//    $.ajax({
+//      url: url,
+//      type: "GET",
+//      dataType: "json"
+//    }).done(function(){
+//      console.log("ajax request success!")
+//    }).fail(function(){
+//      console.log("ajax request fails!")
+//    }).always(function(){
+//      console.log("this always happens regardless of successful ajax request or not")
+//    })
+//  })
+// })
