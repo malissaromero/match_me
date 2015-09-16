@@ -39,7 +39,7 @@ class UsersController < ApplicationController
   end
 
   private
-    def user_params
-      params.require(:user).permit(:provider, :name, :oauth_token, :location, :photo_url)
+    def userparams
+      params.require(:user).permit(:provider, :uid, :name, :oauthtoken)
     end
-end
+  end

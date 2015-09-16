@@ -3,27 +3,29 @@
 <head>
   <meta charset="utf-8">
   <title>MatchMe</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.5/angular-resource.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.5/angular-route.min.js"></script>
-  <script src="https://cdn.traitify.com/js/widgets/v1.js"></script>​
+  <!-- <script src="https://cdn.traitify.com/js/widgets/v1.js"></script>​ -->
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+  <h1>Hello World</h1>
 
-<h1>Hello World</h1>
-<div ng-view>
-</div>
-<!-- <div class="assessment"></div>​
-<script>
-  Traitify.setPublicKey("vb5317e0pcurjt9hn382bbe8it");
-  Traitify.setHost("https://api-sandbox.traitify.com");
-  Traitify.setVersion("v1");
-  var assessmentId = 'd42bb058-ee15-4ba3-b816-fc5f438ae680';
-  Traitify.ui.load(assessmentId, ".assessment")
-</script>​ -->
+  <div ng-view>
+  </div>
+
+    <!-- <div class="assessment"></div>​ -->
+    <!-- <script>
+      Traitify.setPublicKey("vb5317e0pcurjt9hn382bbe8it");
+      Traitify.setHost("https://api-sandbox.traitify.com");
+      Traitify.setVersion("v1");
+      var assessmentId = 'd42bb058-ee15-4ba3-b816-fc5f438ae680';
+      Traitify.ui.load(assessmentId, ".assessment")
+    </script>​ -->
 
 </body>
 </html>
